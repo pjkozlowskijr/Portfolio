@@ -6,27 +6,29 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Box from "@mui/material/Box";
-import Grid2 from "@mui/material/Unstable_Grid2";
-import { Route, Routes } from "react-router-dom";
+import Grid from "@mui/material/Grid";
+import { Route, Routes } from "react-router";
 
 export default function Base() {
-    <Box>
-        <Grid2 container sx={{minHeight: '100%'}}>
-            <Grid2 xs={12}>
+    return(
+        <Box>
+        <Grid container sx={{minHeight: '100%'}}>
+            <Grid xs={12}>
                 <Navbar />
-            </Grid2>
-            <Grid2 xs={12}>
+            </Grid>
+            <Grid xs={12}>
                 <Routes>
-                    <Route path='/' element={<Home />}/>
+                    <Route exact path='/' element={<Home />}/>
                     <Route path='/about' element={<About />}/>
                     <Route path='/contact' element={<Contact />}/>
                     <Route path='/projects' element={<Projects />}/>
                     <Route path='/skills' element={<Skills />}/>
                 </Routes>
-            </Grid2>
-            <Grid2 xs={12}>
+            </Grid>
+            <Grid xs={12}>
                 <Footer />
-            </Grid2>
-        </Grid2>
+            </Grid>
+        </Grid>
     </Box>
+    )
 }
