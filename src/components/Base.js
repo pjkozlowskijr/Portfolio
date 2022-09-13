@@ -25,7 +25,7 @@ export default function Base() {
                     <Route path='/skills' element={<Skills />}/>
                 </Routes>
             </Grid>
-            <Grid xs={12}>
+            <Grid xs={12} sx={{position: 'fixed', bottom: '0'}}>
                 <Footer />
             </Grid>
         </Grid>

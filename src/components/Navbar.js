@@ -26,7 +26,7 @@ const links = [
 
 export default function Navbar() {
     return(
-        <Box>
+        <Box sx={{width: '100%', }}>
             <Link to='/'>
                 <img
                     height='30px'
