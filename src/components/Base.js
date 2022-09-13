@@ -9,7 +9,7 @@ import { Route, Routes } from "react-router";
 
 export default function Base() {
     return(
-        <div className='container columns-1'>
+        <div className='container columns-1 min-h-full'>
             <div>
                 <Navbar />
             </div>
