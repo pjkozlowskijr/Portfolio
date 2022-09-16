@@ -10,7 +10,7 @@ export default function Contact() {
                 <p>I welcome the opportunity to connect with companies and organizations on potential employment. I'd also love to work with like-minded individuals looking to learn and expand our skillsets together. Reach out to me through one of the methods below or the form to the right. I can't wait to chat with you!</p>
                 <div>
                     <ul>
-                        <li className='inline'><a href="mailto:pjkozlowskijr@gmail.com"><EmailIcon /></a></li>
+                        <li className='inline'><a href="mailto:pjkozlowskijr@gmail.com"><EmailIcon className='rounded-full border-2 p-0.5'/></a></li>
                         <li className='inline'><a href="https://www.linkedin.com/in/pjkozlowskijr" target="_blank" rel="noreferrer"><LinkedInIcon /></a></li>
                         <li className='inline'><a href="https://www.github.com/pjkozlowskijr" target="_blank" rel="noreferrer"><GitHubIcon /></a></li>
                     </ul>
