@@ -1,18 +1,29 @@
 .terminalMenu{
-    width: 50vw;
-    height: 4.5vh;
+    height: 30px;
+    width: 800px;
+    box-sizing: border-box;
     background-color: rgb(212, 212, 212);
     margin: 0;
     border: 1px solid black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .terminalScreen{
-    width: 50vw;
+    width: 800px;
+    box-sizing: border-box;
     background-color: black;
     margin: 0;
+    padding: 20px;
     border: 1px solid black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.fakeButtons{
+    font-size: 20px;
+    margin: auto 10px;
 }
