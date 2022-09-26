@@ -1,9 +1,14 @@
-.terminalLocation{
+.userMachine{
     color: rgb(71, 216, 71);
     font-family: 'IBM Plex Mono', monospace;
 }
 
 .terminalText{
     color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.terminalLocation{
+    color: rgb(58, 58, 200);
     font-family: 'IBM Plex Mono', monospace;
 }

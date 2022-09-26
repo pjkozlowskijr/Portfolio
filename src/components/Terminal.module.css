@@ -27,3 +27,9 @@
     font-size: 20px;
     margin: auto 10px;
 }
+
+.closeButton{
+    background-color: red;
+    border-radius: 50%;
+    color: rgb(54, 54, 54);
+}
