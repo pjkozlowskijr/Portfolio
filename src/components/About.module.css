@@ -18,10 +18,13 @@
     background-color: rgb(175, 175, 175);
     border-radius: 25%;
     padding: 2px;
-    margin-top: 2px;
 }
 
-.skills{
+.aboutColumns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.aboutLists li:not(:first-of-type){
+    margin-top: 5px;
 }

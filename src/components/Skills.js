@@ -1,4 +1,5 @@
 import styles from './About.module.css'
+import classnames from 'classnames'
 
 export default function Skills() {
     return(
@@ -16,8 +17,8 @@ export default function Skills() {
                 <span className={styles.terminalText}>$ ls</span>
             </p>
             <br/>
-            <div className={styles.skills}>
-                <ul className={styles.terminalText}>
+            <div className={styles.aboutColumns}>
+                <ul className={classnames(styles.terminalText, styles.aboutLists)}>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg" alt="React" height="40" width="40"/>
                         &nbsp;React.js
@@ -28,11 +29,11 @@ export default function Skills() {
                     </li>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg" alt="HTML5" height="40" width="40"/>
-                        &nbsp;HTML5
+                        &nbsp;HTML
                     </li>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg" alt="CSS3" height="40" width="40"/>
-                        &nbsp;CSS3
+                        &nbsp;CSS
                     </li>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg" alt="MUI" height="40" width="40"/>
@@ -47,7 +48,7 @@ export default function Skills() {
                         &nbsp;PostgreSQL
                     </li>
                 </ul>
-                <ul className={styles.terminalText}>
+                <ul className={classnames(styles.terminalText, styles.aboutLists)}>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original-wordmark.svg" alt="SQLite" height="40" width="40"/>
                         &nbsp;SQLite
@@ -73,7 +74,7 @@ export default function Skills() {
                         &nbsp;Git
                     </li>
                 </ul>
-                <ul className={styles.terminalText}>
+                <ul className={classnames(styles.terminalText, styles.aboutLists)}>
                     <li>
                         <img className={styles.transBack} src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original-wordmark.svg" alt="GitHub" height="40" width="40"/>
                         &nbsp;GitHub
