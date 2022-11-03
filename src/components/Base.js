@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
-import Skills from "./Skills";
 import { Route, Routes } from "react-router";
 
 export default function Base() {
