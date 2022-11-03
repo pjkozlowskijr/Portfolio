@@ -50,7 +50,7 @@ export default function Contact() {
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><input id="submit" type="submit" value="Submit"></input></td>
+                                <td><button id="submit" type="submit">Submit</button></td>
                             </tr>
                         </tbody>
                     </table>
